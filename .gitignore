@@ -9,6 +9,8 @@ __pycache__/
 # Distribution / packaging
 .Python
 build/
+Tesseract-OCR/
+Segmentation/mask_rcnn_models/
 develop-eggs/
 dist/
 downloads/

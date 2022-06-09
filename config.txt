@@ -1,0 +1,22 @@
+
+# Virtual Environment:
+	-> conda create --name pfc_env python=3.7
+	-> pip install imgaug
+	-> pip install -U scikit-image==0.16.2
+	-> pip install labelme2coco==0.1.0
+	-> pip install pixellib==0.5.2
+	-> pip install tensorflow==2.4.1
+        -> pip install pytesseract
+-------------------------------------------------------
+
+# Install Labelme (labeling tool):
+	Windows: 
+		-> pip install pyqt5;
+		-> pip install labelme;
+	
+	Linux (Ubuntu 14.04 / Ubuntu 16.04): 
+		-> sudo apt-get install python3-pyqt5;
+		-> sudo pip3 install labelme;
+
+	Linux (Ubuntu 19.10+ / Debian (sid)): 
+		-> sudo apt-get install labelme;
