@@ -7,6 +7,8 @@
 	-> pip install pixellib==0.5.2
 	-> pip install tensorflow==2.4.1
         -> pip install pytesseract
+	-> pip install textblob
+        -> pip install language_tool_python 
 -------------------------------------------------------
 
 # Install Labelme (labeling tool):

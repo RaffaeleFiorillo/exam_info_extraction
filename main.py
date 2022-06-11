@@ -15,6 +15,7 @@ args = vars(ap.parse_args())
 if __name__ == "__main__":
     if os.path.isfile(args["image"]):  # extract information from an image
         coo = segment.get_segmented_directory([args["image"]])[0]
+        print(args["image"])
         exam = extraction.Exam(args["image"], coo)
         exam.extract_information(args["save_dir"])
     elif os.path.isdir(args["image"]):  # extract information from a group of images within a folder
