@@ -1,14 +1,15 @@
 import argparse
 import os
 from Auxiliar import auxiliary
-from I2T import extraction
 from Segmentation import segmentation as segment
+from I2T import extraction
 
 
 ap = argparse.ArgumentParser()
 
-ap.add_argument("-i", "--image", required=True, type=str, help="path to exam/test image(s). Could be a folder")
+ap.add_argument("-i", "--image", type=str, help="path to exam/test image(s). Could be a folder")
 ap.add_argument("-sd", "--save_dir", type=str, default="Results", help="path where the extracted text will be saved")
+# ap.add_argument("-t", "--test", default=True, type=bool, help="run the code in the test script")
 # ap.add_argument("-", "--", type=, default=, help="")
 args = vars(ap.parse_args())
 

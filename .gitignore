@@ -11,6 +11,8 @@ __pycache__/
 build/
 Tesseract-OCR/
 Segmentation/mask_rcnn_models/
+Auxiliar/enhancements_backups
+Results/
 develop-eggs/
 dist/
 downloads/
